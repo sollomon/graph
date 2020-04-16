@@ -6,7 +6,7 @@ module.exports = gql`
         account(id:ID!):Account!
     }
 
-    type Account{
+    type Account{ 
         id:ID!
         ref:User!
         details:[String!]

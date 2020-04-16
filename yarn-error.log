@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add --dev babel-cli
+
+PATH: 
+  /home/sollo/anaconda2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/apollo-server: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy.must-lan.ac.ke proxy.must-lan.ac.ke:8080
+      at ClientRequest.onError (/usr/share/yarn/lib/cli.js:140504:17)
+      at Object.onceWrapper (events.js:315:30)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at Socket.socketErrorListener (_http_client.js:387:9)
+      at emitOne (events.js:116:13)
+      at Socket.emit (events.js:211:7)
+      at emitErrorNT (internal/streams/destroy.js:64:8)
+      at _combinedTickCallback (internal/process/next_tick.js:138:11)
+      at process._tickCallback (internal/process/next_tick.js:180:9)
+
+npm manifest: 
+  {
+    "name": "graph",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "sollomon",
+    "license": "ISC",
+    "dependencies": {
+      "apollo-server": "^2.2.2",
+      "apollo-server-express": "^2.2.2",
+      "cors": "^2.8.5",
+      "express-graphql": "^0.7.1",
+      "graphql": "^14.0.2",
+      "jsonwebtoken": "^8.4.0",
+      "lodash": "^4.17.11",
+      "mongoose": "^5.3.13",
+      "mongoose-unique-validator": "^2.0.2",
+      "multer": "^1.4.1",
+      "uuid": "^3.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
